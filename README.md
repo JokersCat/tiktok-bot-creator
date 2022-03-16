@@ -1,4 +1,9 @@
 # ⚠️ STILL UNDER DEVELOPEMENT ⚠️
+
+- **Adding PROXY ROTATION**
+- **Adding EMAIL VERIFICATION**
+- **Adding USERNAME COMPILER**
+
 ## tiktok-bot-creator
 A tiktok mass account creator with undetected selenium and email verification, to bot an account
 
