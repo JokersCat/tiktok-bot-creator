@@ -15,5 +15,5 @@ pip install selenium
 ```
 - undetected-selenium 
 ```
-pip install undetected_selenium
+pip install undetected-selenium
 ```
