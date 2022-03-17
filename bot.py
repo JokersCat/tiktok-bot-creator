@@ -18,24 +18,14 @@ def login():
     #send verify email
     driver.switch_to.new_window()
     driver.get('https://www.tiktok.com/signup/phone-or-email/email')
-    wait.until(
-        EC.element_to_be_clickable((By.XPATH, '//*[@id="root"]/div/div[1]/form/div[2]/div[1]/div'))).click()  # month
-    wait.until(
-        EC.element_to_be_clickable((By.XPATH, '//*[@id="root"]/div/div[1]/form/div[2]/div[1]/ul/li[11]'))).click()  # 11
-
-    wait.until(
-        EC.element_to_be_clickable((By.XPATH, '//*[@id="root"]/div/div[1]/form/div[2]/div[2]/div'))).click()  # day
-    wait.until(
-        EC.element_to_be_clickable((By.XPATH, '//*[@id="root"]/div/div[1]/form/div[2]/div[2]/ul/li[4]'))).click()  # 4
-
-    wait.until(
-        EC.element_to_be_clickable((By.XPATH, '//*[@id="root"]/div/div[1]/form/div[2]/div[3]/div'))).click()  # year
-    wait.until(EC.element_to_be_clickable(
-        (By.XPATH, '//*[@id="root"]/div/div[1]/form/div[2]/div[3]/ul/li[19]'))).click()  # 2003
-
+    wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="root"]/div/div[1]/form/div[2]/div[1]/div'))).click()  # month
+    wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="root"]/div/div[1]/form/div[2]/div[1]/ul/li[11]'))).click()  # 11
+    wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="root"]/div/div[1]/form/div[2]/div[2]/div'))).click()  # day
+    wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="root"]/div/div[1]/form/div[2]/div[2]/ul/li[4]'))).click()  # 4
+    wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="root"]/div/div[1]/form/div[2]/div[3]/div'))).click()  # year
+    wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="root"]/div/div[1]/form/div[2]/div[3]/ul/li[19]'))).click()  # 2003
     wait.until(EC.element_to_be_clickable((By.NAME, 'email'))).send_keys(temp_mail)  # email
     wait.until(EC.element_to_be_clickable((By.NAME, 'password'))).send_keys('Jello@1234')  # password
-
     wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="root"]/div/div[1]/form/div[4]/div[5]/button'))).click()
     
     
