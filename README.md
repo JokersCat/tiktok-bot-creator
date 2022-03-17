@@ -1,4 +1,4 @@
-# ⚠️ STILL UNDER DEVELOPEMENT - v1.2-beta⚠️
+# ⚠️ STILL UNDER DEVELOPEMENT - v2.1-beta⚠️
 ### DM me if you have any questions: 
 - 📫 Discord: [xtekky#9031](https://discord.gg/)
 - 📲 Telegram: [t.me/xtekky](https://t.me/xtekky)
