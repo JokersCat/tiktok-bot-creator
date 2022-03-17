@@ -5,9 +5,12 @@ from selenium.webdriver.support import expected_conditions as EC
 import pyperclip
 from time import sleep
 
+print("""
+STILL UNDER DEVELOPPEMENT 
+CREDITS TO: https://github.com/xtekky
+""")
 
 def login():
-
 
     driver = uc.Chrome(use_subprocess=True)
     wait = WebDriverWait(driver, 20)
