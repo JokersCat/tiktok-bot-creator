@@ -1,4 +1,7 @@
 # ⚠️ STILL UNDER DEVELOPEMENT - v1.1-beta⚠️
+### DM me if you have any questions: 
+- 📫 Discord: [xtekky#9031](https://discord.gg/)
+- 📲 Telegram: [t.me/xtekky](https://t.me/xtekky)
 
 ![image](https://user-images.githubusercontent.com/98614666/158705658-f81dc3e5-2157-4c08-a716-4349998d88bd.png)
 - **Adding PROXY ROTATION**
